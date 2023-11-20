@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  min-height: 100dvh;
+  padding: 1em;
+}
