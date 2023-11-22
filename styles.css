@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  background-color: antiquewhite;
+}
+
+main {
+  width: 100%;
+  min-height: 100dvh;
+}
+
+.projects__container {
+  margin: 2em;
+}
+
+.drums {
+  display: flex;
+  background: #fff;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.text {
+  padding: 1em;
+}
+
+h1 {
+  margin-top: 0.25em;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+span {
+  display: block;
+  margin-bottom: 1em;
+  color: #fff;
+}
+
+.dom {
+  background: #4858b6;
+}
+
+.css {
+  color: #000;
+  background: #93ff00;
+}
+
+.audio {
+  background: #469ce9;
+}
