@@ -14,6 +14,13 @@ function playSound(key) {
   setTimeout(() => {
     button.classList.remove('playing');
   }, 350);
+
+  // Set the immediate transform effect on button click
+  button.style.transform = 'scale(1.1)';
+
+  setTimeout(() => {
+    button.style.transform = 'scale(1)';
+  }, 350);
 }
 
 const buttons = document.querySelectorAll('.--btn');
@@ -23,12 +30,6 @@ buttons.forEach((button) =>
   button.addEventListener('click', function () {
     const key = this.getAttribute('data-key');
     playSound(key);
-
-    this.style.transform = 'scale(1.1)';
-
-    setTimeout(() => {
-      this.style.transform = 'scale(1)';
-    }, 350);
   })
 );
 
